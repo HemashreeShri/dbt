@@ -7,7 +7,7 @@
                 case 
                 when MEMBERSHIP_STATUS = 'Active' and TENURE_IN_MONTHS >=36 then 'Gold'
                 when MEMBERSHIP_STATUS = 'Active' and TENURE_IN_MONTHS >=19 And TENURE_IN_MONTHS <36 then 'Silver'
-                when  MEMBERSHIP_STATUS = 'Active' and TENURE_IN_MONTHS <=18 then 'Gold'
+                when  MEMBERSHIP_STATUS = 'Active' and TENURE_IN_MONTHS <=18 then 'Bronze'
                 end"
     ]
 ) }}

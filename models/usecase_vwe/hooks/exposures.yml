@@ -1,0 +1,21 @@
+version: 2
+exposures:
+  
+  - name: segregation_of_Premium_customer
+    type: dashboard
+    maturity: high
+    url: https://bi.tool/dashboards/1
+    description: >
+      Did someone say "exponential growth"?
+    
+    depends_on:
+      - ref('premium_cust')
+      - ref('premium_active_customer')
+      - ref('premium_gold_customer')
+      - ref('premium_silver_cutomer')
+      - ref('premium_bronze_customer')
+  
+      
+    owner:
+      name: Hemashree Data
+      email: hemashree.shrivastava@gmail.com
