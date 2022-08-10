@@ -1,0 +1,1 @@
+select * from "VWE2"."PUBLIC"."REVIEW"
